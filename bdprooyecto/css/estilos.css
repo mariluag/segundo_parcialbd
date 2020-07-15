@@ -1,0 +1,406 @@
+.back-img {
+    background-image: url("../img/departamental-big.jpg");
+    background-size: cover;
+    height: 754px;
+}
+
+.back-login {
+    margin-top: 25%;
+}
+
+.titulo {
+    text-align: center;
+    color: #fa9191;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #eb6383;
+    color: #ffff;
+}
+
+.btn-login:hover {
+    background-color: #fa9191;
+    color: #ffff;
+}
+
+
+/*Menú de navegación*/
+
+#header {
+    position: relative;
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    /*posicion fija*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+
+.menu .logo-box {
+    margin-left: 20px;
+}
+
+.menu .logo-box h1 a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.menu .list-container {
+    margin-right: 20px;
+}
+
+.menu .list-container .lists {
+    display: flex;
+}
+
+.menu .list-container .lists li {
+    list-style: none;
+}
+
+.menu .list-container .lists li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 8px;
+    color: var(--black);
+    border-radius: 24px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.menu .list-container .lists li a.activo {
+    background: var(--red);
+    color: #fff;
+}
+
+.menu .list-container .lists li a:hover {
+    background: var(--red);
+    color: #fff;
+}
+
+.btn-menu>.fa-bars {
+    display: none;
+}
+
+
+/*fin de menú de navegación*/
+
+
+/*Img header*/
+
+.img-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/img-back3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-header .welcome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-header .welcome h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.img-header .welcome hr {
+    width: 400px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin-top: 5px;
+}
+
+.img-header .welcome p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.img-header .welcome>button {
+    width: 170px;
+    height: 40px;
+    background: var(--red);
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.img-header .welcome>button:hover {
+    background: var(--blue);
+}
+
+
+/*fin img header*/
+
+
+/*acerca de */
+
+.acerde {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.acerde .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*alinea en columnas*/
+}
+
+.acerde .container h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.acerde .container p {
+    text-align: center;
+    font-size: 17px;
+    color: var(--black);
+    line-height: 35px;
+    margin: 10px 0px;
+}
+
+.acerde .container .about-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.acerde .container .about-gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.acerde .container .about-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.acerde .container .about-more button {
+    width: 120px;
+    height: 40px;
+    background: var(--red);
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    /*modifica el aspecto del cursor al estar sobre el boton*/
+    transition: 0.5s;
+}
+
+.acerde .container .about-more button:hover {
+    background: var(--blue);
+}
+
+
+/*acerca de */
+
+/
+/*footer*/
+
+
+/*formulario*/
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fa9191;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer .deg-footer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fa9191;
+}
+
+.footer .ejeZfooter {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.footer .footer-container {
+    width: 90%;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.footer .footer-container .footer-tittle {
+    width: 50%;
+    margin: auto;
+    border: 2px solid #fff;
+    padding: 15px;
+}
+
+.footer .footer-container .footer-tittle h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.footer .footer-container .footer-tittle hr {
+    width: 80%;
+    margin: auto;
+}
+
+.footer .footer-container .formulario-content {
+    width: 60%;
+    background: #fff;
+    border-radius: 20px;
+    border: 2px solid var(--red);
+    margin: 50px auto;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.footer .footer-container .formulario-content #formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .footer-container .formulario-content #formulario label {
+    text-align: center;
+    color: var(--black);
+    font-size: 22px;
+    margin: 30px 0px 10px 0px;
+}
+
+.footer .footer-container .formulario-content #formulario input {
+    width: 90%;
+    margin: auto;
+    border: 2px solid var(--red);
+    border-radius: 24px;
+    outline: none;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    color: var(--black);
+}
+
+.footer .footer-container .formulario-content #formulario textarea {
+    width: 90%;
+    margin: auto;
+    border: 2px solid var(--red);
+    border-radius: 24px;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    color: var(--black);
+    padding: 20px;
+    height: 200px;
+}
+
+.footer .footer-container .formulario-content #formulario .send {
+    width: 100%;
+    display: flex;
+    margin: 30px 0px;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.footer .footer-container .formulario-content #formulario .send button {
+    width: 150px;
+    height: 40px;
+    background: var(--red);
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    /*modifica el aspecto del cursor al estar sobre el boton*/
+    transition: 0.5s;
+}
+
+.footer .footer-container .formulario-content #formulario .send button:hover {
+    background: var(--blue);
+}
+
+.footer .footer-container .formulario-content #formulario .msj-form {
+    width: 100%;
+    margin: auto;
+}
+
+.footer .footer-container .formulario-content #formulario p {
+    text-align: center;
+}
+
+.footer .footer-container .footer-text {
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-container .footer-text p {
+    color: white;
+    font-size: 25px;
+}
+
+
+/*footer*/
+
+.mb-5 {
+    margin-left: 4rem;
+}
